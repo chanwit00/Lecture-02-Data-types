@@ -4,8 +4,15 @@ function printHello(name) {
     return name + " hello!";
 }
 
+function printgoodbye(name){
+    console.log("Hey ",name);
+    return name +" Goodbye !";
+}
+
 console.log(printHello.name)
 
 // 2.Function Invocation
 let result = printHello("chanwit !");
 console.log(result);
+
+
